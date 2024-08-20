@@ -1,0 +1,39 @@
+[
+    {
+      "id": 13,
+      "name": "Papaya 1.25kg",
+      "price": 235,
+      "image":"/images/papaya.png"
+    },
+    {
+      "id": 14,
+      "name": "Mango 1kg",
+      "price": 570,
+      "image":"/images/mango.png"
+    },
+    {
+      "id": 15,
+      "name": "Watermelon 2kg",
+      "price": 180,
+      "image":"/images/watermelon.png"
+    },
+    {
+      "id": 16,
+      "name": "Tomato 500g",
+      "price": 70,
+      "image":"/images/apple.png"
+    },
+    {
+      "id": 17,
+      "name": "Grapes 500g",
+      "price": 1590,
+      "image":"/images/grapes.png"
+    },
+    {
+      "id": 18,
+      "name": "Orange 600g",
+      "price": 990,
+      "image":"/images/orange.png"
+    }
+  ]
+  

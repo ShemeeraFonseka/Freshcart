@@ -1,0 +1,44 @@
+.topbar {
+    padding: 10px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 12px;
+    background-color: #4AA428;
+    color: #fff;
+    position: fixed; /* Fixes the topbar at the top of the viewport */
+    z-index: 1000;   /* Ensures the topbar is above other content */
+    top: 0;          /* Positions it at the top of the viewport */
+    left: 0;         /* Ensures the topbar spans the entire width of the viewport */
+    right: 0;
+    width: 100%;     /* Full width of the viewport */
+    box-sizing: border-box;
+}
+
+@media (max-width: 1289px) {
+    .topbar {
+        padding: 10px 160px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 761px) {
+    .topbar {
+        padding: 10px 60px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 501px) {
+    .topbar {
+        padding: 10px 20px;
+
+    }
+}
+
+@media (max-width: 421px) {
+    .topbar {
+        padding: 10px 10px;
+        font-size: 8px;
+    }
+}

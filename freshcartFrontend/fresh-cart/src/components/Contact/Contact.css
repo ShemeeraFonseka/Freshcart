@@ -1,0 +1,53 @@
+
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+
+.contect{
+        font-size: x-small;
+         height: 4rem!important;
+         line-height: 30px;
+         text-align: center;
+}
+
+.c-left {
+    display: flex;
+    position: relative;
+    flex: 1 1;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}

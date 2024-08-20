@@ -1,0 +1,265 @@
+.search-section {
+    background-color: #428828;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 160px;
+    justify-content: space-between;
+    position: fixed; /* Fix the search bar to the top */
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.searchtext {
+    flex-grow: 1;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    width: 500px;
+    outline: none;
+}
+
+.search-dropdown {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.dropdown-content {
+    color: rgb(0, 0, 0);
+    width: 1000px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-text {
+    font-size: 14px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.search-icon {
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -10px;
+    /* Adjust as needed */
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.search-icon,
+.cart-badge {
+    cursor: pointer;
+}
+
+.menubar {
+    display: none;
+}
+
+.dropbtn {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.user-icon{
+    display: none;
+}
+
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    max-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 14px;
+    color: black;
+    left: 50%; /* Position relative to the left edge */
+    transform: translateX(-50%); /* Move left by 50% of its own width */
+}
+
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    max-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 10px;
+    color: black;
+    left: 50%; /* Position relative to the left edge */
+    transform: translateX(-50%); /* Move left by 50% of its own width */
+}
+
+.dropdown-content a,
+.user-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover,
+.user-dropdown-content a:hover {
+    background-color: #4AA428;
+    color: #fff;
+}
+
+
+.dropdown:hover .dropdown-content,
+.user-dropdown:hover .user-dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}
+
+.checkout {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    margin: 10px;
+}
+
+.checkout:hover {
+    scale: 1.05;
+    color: #ffffff;
+}
+
+@media (max-width: 1385px) {
+    .searchtext {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1122px) {
+    .searchtext {
+        width: auto;
+    }
+
+    .search-section {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 891px) {
+    .brand-name {
+        font-size: 20px;
+    }
+
+    .search-section {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 757px) {
+    .nav-text {
+        font-size: 12px;
+    }
+
+    .search-dropdown {
+        font-size: 12px;
+    }
+
+    .brand-name {
+        font-size: 18px;
+    }
+
+    .search-section {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media (max-width: 533px) {
+    .searchtext {
+        width: 100px;
+    }
+}
+
+@media (max-width: 457px) {
+    .user-icon {
+        display: inline;
+        padding-right: 20px;
+    }
+
+    .menubar {
+        display: inline;
+        padding-left: 20px;
+        transform: scale(1.5); /* Use transform for scaling */
+    }
+
+    .hide-text {
+        display: none;
+    }
+}

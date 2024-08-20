@@ -1,0 +1,44 @@
+.home-container {
+    background-image: url('../../../public/images/ee.jpg'); /* Adjust the path as needed */
+    background-size: 50%; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Position the text to the right */
+    margin: 0;
+    padding: 20px; /* Optional: Add some padding */
+    color: #ffffff; /* Ensure the text is readable */
+}
+
+.text-container {
+    text-align: center;
+}
+
+.headline {
+    font-size: 70px; /* Adjust the size as needed */
+
+    line-height: 100px;
+
+}
+
+.shop-button{
+    background: #205F01;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+  
+  .shop-button:hover{
+    scale: 1.05;
+ 
+  }
+  
