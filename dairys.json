@@ -1,0 +1,39 @@
+[
+    {
+      "id": 7,
+      "name": "Kotmale Curd 900g",
+      "price": 544,
+      "image":"/images/curd.png"
+    },
+    {
+      "id": 8,
+      "name": "Puredale Kirithe 400g",
+      "price": 830,
+      "image":"/images/puredel.png"
+    },
+    {
+      "id": 9,
+      "name": "Kotmale Ball Cheese 325g",
+      "price": 1485,
+      "image":"/images/cheese.png"
+    },
+    {
+      "id": 10,
+      "name": "Ambewela Fresh Milk 1L",
+      "price": 550,
+      "image":"/images/ambe.png"
+    },
+    {
+      "id": 11,
+      "name": "Cheese Spread 175g",
+      "price": 180,
+      "image":"/images/spread.png"
+    },
+    {
+      "id": 12,
+      "name": "Happy Cow Cheese 120g",
+      "price": 448,
+      "image":"/images/happy.png"
+    }
+  ]
+  

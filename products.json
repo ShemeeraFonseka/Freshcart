@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Pumpkin 500g",
+      "price": 70,
+      "image":"/images/pumpkin.png"
+    },
+    {
+      "id": 2,
+      "name": "Carrot 500g",
+      "price": 225,
+      "image":"/images/carrot.png"
+    },
+    {
+      "id": 3,
+      "name": "Leeks 250g",
+      "price": 70,
+      "image":"/images/leeks.png"
+    },
+    {
+      "id": 4,
+      "name": "Tomato 500g",
+      "price": 70,
+      "image":"/images/tomato.png"
+    },
+    {
+      "id": 5,
+      "name": "Capcicum 250g",
+      "price": 145,
+      "image":"/images/capcicum.png"
+    },
+    {
+      "id": 6,
+      "name": "Cabbage 500g",
+      "price": 165,
+      "image":"/images/cabbage.png"
+    }
+  ]
+  
